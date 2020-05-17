@@ -15,3 +15,30 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
+// const commonElementsOptimized = (...args) => {
+//   let commonCache = {}
+
+//   let countCache = {}
+
+
+//   args.forEach(arr => {
+//     arr.forEach(el => {
+//       if (!countCache[el]) {
+//         countCache[el] = 1
+//       } else {
+//         countCache[el]++
+//       }
+
+//       if (!commonCache[countCache[el]]){
+//         commonCache[countCache[el]] = [el];
+//       } else {
+//         commonCache[countCache[el]].push(el)
+//       }
+
+//     })
+//   })
+
+//   return commonCache[args.length] ? commonCache[args.length] : "Nothing in Common!"
+// }
