@@ -49,7 +49,3 @@ class App extends Component {
 }
 
 export default App;
-
-// {this.state.monsters.map(monster => (
-//   <h1 key={monster.id}> { monster.name } </h1>
-// ))}
